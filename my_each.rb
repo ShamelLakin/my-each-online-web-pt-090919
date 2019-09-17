@@ -10,3 +10,8 @@ def my_each(array)
   end
 
 end
+
+words = ['hi', 'hello', 'bye', 'goodbye']
+my_each(words) do |i|
+  puts i
+end
