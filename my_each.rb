@@ -6,7 +6,7 @@ def my_each(array)
 
     i = i + 1
   end
-
+  array
 end
 
 collection = [1, 2, 3, 4]
