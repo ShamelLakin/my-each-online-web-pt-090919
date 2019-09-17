@@ -1,15 +1,15 @@
-def my_each(words)
+def my_each(collection)
     i = 0
  
-  while i < words.length
-     yield words[i]
+  while i < collection.length
+     yield collection[i]
 
     i = i + 1
   end
 
 end
 
-words = ['hi', 'hello', 'bye', 'goodbye']
-my_each(words) do |i|
+collection = [1, 2, 3, 4]
+my_each(collection) do |i|
   puts i
 end
